@@ -147,11 +147,11 @@ if (pariDispari % 2 === 0) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let val = 3;
-if (val < 5) {
-  console.log("Meno di 5");
-} else if (val < 10) {
+let val = 5;
+if (val < 10 && val >= 5) {
   console.log("Meno di 10");
+} else if (val < 5) {
+  console.log("Meno di 5");
 } else {
   console.log("Uguale a 10 o maggiore");
 }
